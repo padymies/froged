@@ -1,0 +1,31 @@
+.home-container {
+  display: flex;
+  height: 90%;
+  padding: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.grid-contaienr {
+  flex: 3;
+  padding: 3rem;
+
+  @media (max-width: 768px) {
+    padding: 0;
+    min-height: 100%;
+  }
+}

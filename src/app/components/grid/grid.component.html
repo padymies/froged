@@ -1,0 +1,9 @@
+<div class="cards-container">
+  <div class="card-item" *ngFor="let item of data | async">
+    <ui-card *ngIf="isLoading == false">
+      <ui-card-header>
+        <ui-card-title>{{ item.name }}</ui-card-title>
+      </ui-card-header>
+    </ui-card>
+  </div>
+</div>
